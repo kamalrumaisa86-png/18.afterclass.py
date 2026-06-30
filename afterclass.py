@@ -2,6 +2,8 @@ try:
     age = int(input("Enter your age: "))
     if (age < 18):
         raise ValueError
+    else:
+        print("Your age is valid you may proceed")
 except ValueError:
     print("You are too young")
 def OddOrEven ():
